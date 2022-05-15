@@ -18,3 +18,10 @@ In addition, we used cv2.utils package:
 
 `from google.colab import drive
 drive.mount("/content/gdrive")`
+
+## Test that your Google Drive Successfully Mounted 
+This will depend on the data that you use. The path for your data images will be different, so make sure you adjust accodingly. 
+
+img = cv2.imread("/content/gdrive/MyDrive/final_project/images/sample/01000.jpg")
+print(img.shape)
+cv2_imshow(img)`
