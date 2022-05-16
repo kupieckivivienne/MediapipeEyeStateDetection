@@ -8,6 +8,9 @@ We focused on the implementation of several different datasets. Click the Link t
 We used 50 images from the Flickr Faces HQ Dataset, which are 1024 x 1024 px. Please redirect any changes or additions to this Dataset here: 
 https://github.com/NVlabs/ffhq-dataset 
 
+### Open: Closed 
+Diverse data set with 26 open-eyed images and 26 closed-eyed images. We changed the ground truth to match this accordingly to run with our code. 
+
 ## Running Packages
 In order to use Mediapipe, please run the command below at the top of your code: 
 
