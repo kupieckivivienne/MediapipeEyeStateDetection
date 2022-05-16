@@ -48,3 +48,7 @@ if idx in (7, 33, 133, 144, 145, 153, 154, 155, 157, 158, 159, 160, 161, 163, 17
 elif idx in (249, 263, 362, 373, 374, 380, 381, 382, 384, 385, 386, 387, 388, 390, 398, 466, 474, 475, 476, 477):
             l_eye_landmarks.append((-1, -1))
 ```
+If you are curious about the key points, please download the Face Mesh image from the Face Mesh folder on this repo. 
+
+## Contribution 
+Below we added respective contributions for our project: 
