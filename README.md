@@ -48,7 +48,20 @@ if idx in (7, 33, 133, 144, 145, 153, 154, 155, 157, 158, 159, 160, 161, 163, 17
 elif idx in (249, 263, 362, 373, 374, 380, 381, 382, 384, 385, 386, 387, 388, 390, 398, 466, 474, 475, 476, 477):
             l_eye_landmarks.append((-1, -1))
 ```
-If you are curious about the key points, please download the Face Mesh image from the Face Mesh folder on this repo. 
+If you are curious about the key points, please download the Face Mesh image here: 
+https://github.com/kupieckivivienne/MediapipeEyeStateDetection/tree/main/Face%20Mesh 
+
+## Saving Eye Aspect Ratios in a CSV File 
+Again, save your files into the respective Google Drive Folders. For example, you can find the EAR for all 50 images of the FFHQ Dataset sample here: https://github.com/kupieckivivienne/MediapipeEyeStateDetection/tree/main/Data/FFHQ%20(50%20Images) 
+
+``` 
+from pathlib import Path  
+filepath_l = Path('gdrive/MyDrive/images/left.csv')
+filepath_r = Path('gdrive/MyDrive/images/right.csv')  
+filepath_r.parent.mkdir(parents=True, exist_ok=True)  
+df_l.to_csv(filepath_l) 
+df_r.to_csv(filepath_r) 
+```  
 
 ## Contribution 
 Below we added respective contributions for our project: 
