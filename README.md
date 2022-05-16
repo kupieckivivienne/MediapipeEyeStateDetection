@@ -42,11 +42,9 @@ The functions used to compute the key blink point ratio were adapted from https:
 
 ## Understanding Right and Left Eye Key points
 The numbers in r_eye and l_eye variables are appointed from Medipipe's face mesh. Those key points, are universal, and are adapted to every image run through the system. They are used as landmarks and key points, to then calculate ratios for the open, closed, and squinted eye states. 
-'''
-            if idx in (7, 33, 133, 144, 145, 153, 154, 155, 157, 158, \
-                       159, 160, 161, 163, 173, 246, 469, 470, 471, 472):
-                r_eye_landmarks.append((-1, -1))
-            elif idx in (249, 263, 362, 373, 374, 380, 381, 382, 384, 385, \
-                         386, 387, 388, 390, 398, 466, 474, 475, 476, 477):
-                l_eye_landmarks.append((-1, -1))
-'''
+```
+if idx in (7, 33, 133, 144, 145, 153, 154, 155, 157, 158, 159, 160, 161, 163, 173, 246, 469, 470, 471, 472):
+            r_eye_landmarks.append((-1, -1))
+elif idx in (249, 263, 362, 373, 374, 380, 381, 382, 384, 385, 386, 387, 388, 390, 398, 466, 474, 475, 476, 477):
+            l_eye_landmarks.append((-1, -1))
+```
