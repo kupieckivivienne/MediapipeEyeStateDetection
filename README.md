@@ -38,3 +38,4 @@ print(img.shape)
 cv2_imshow(img)
 ```
 ## Functions
+The functions used to compute the key blink point ratio were adapted from https://medium.com/@asadullah92c/eyes-blink-detector-and-counter-mediapipe-a66254eb002c
