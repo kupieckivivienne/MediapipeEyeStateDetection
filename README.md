@@ -37,3 +37,4 @@ img = cv2.imread("/content/gdrive/MyDrive/final_project/images/sample/01000.jpg"
 print(img.shape)
 cv2_imshow(img)
 ```
+## Functions
