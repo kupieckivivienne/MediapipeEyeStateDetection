@@ -68,7 +68,8 @@ df_r.to_csv(filepath_r)
 ### Below we added respective contributions for our code: 
 
 ### Akanksha: 
-- Met with Nerea Aranjuelo initially and adpated sections of the gaze-capture projet's code to fit the tasks needed to be accomplished by our project.
+- Met with Nerea Aranjuelo initially and adpated sections of the gaze-capture project's code to 
+  fit the tasks needed to be accomplished by our project
 - Mounted Drive on Google Colab and debugging
 - Explored different options for EAR ratio code
 - Adjusted threshold code which improved accuracy up to 93 percent
@@ -78,7 +79,8 @@ df_r.to_csv(filepath_r)
 - Edited EAR functions and applied them to the data 
 - Drew eye lines on preexisting Mesh Face on all images 
 - Wrote threshold function and compared predicted versus ground truth labels 
-- T- Test for different datasets and comparing error 
+- T- Test for different datasets and comparing error
+-
 ### Alex: 
 - Mounted Drive on Google Colab and debugging 
 - Adjusted threshold code which improved accuracy up to 93 percent 
