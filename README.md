@@ -80,7 +80,7 @@ df_r.to_csv(filepath_r)
 - Drew eye lines on preexisting Mesh Face on all images 
 - Wrote threshold function and compared predicted versus ground truth labels 
 - T- Test for different datasets and comparing error
--
+
 ### Alex: 
 - Mounted Drive on Google Colab and debugging 
 - Adjusted threshold code which improved accuracy up to 93 percent 
